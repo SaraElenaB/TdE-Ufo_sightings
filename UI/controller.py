@@ -22,6 +22,7 @@ class Controller:
         for s in shape:
             self._view.ddshape.options.append(ft.dropdown.Option(s))
 
+    #------------------------------------------------------------------------------------------------------------------------------------------
     def handle_graph(self, e):
 
         anno = self._view.ddyear.value
@@ -51,7 +52,7 @@ class Controller:
 
         self._view.update_page()
 
-
+    # ------------------------------------------------------------------------------------------------------------------------------------------
 
 
     def handle_path(self, e):
